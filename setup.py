@@ -6,7 +6,7 @@ setup(
     version="0.0.1",
     py_packages=["AfricaTools"],
     install_requires=[
-        "Click"
+        "Click", 'pandas', 'matplotlib'
     ],
     entry_points="""
     [console_scripts]

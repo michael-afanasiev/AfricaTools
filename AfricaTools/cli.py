@@ -9,7 +9,7 @@ def cli():
 
 # noinspection PyIncorrectDocstring
 @cli.command()
-@click.option("--file", type=click.Path(readable=True), help="CSV filename", required=True)
+@click.option("--filename", type=click.Path(readable=True), help="CSV filename", required=True)
 def plot_stations(filename):
     """
     Read in a saved stations file and plot it.
